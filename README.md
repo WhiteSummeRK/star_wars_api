@@ -12,3 +12,8 @@ na url /character, e todas as suas naves e os respectivos scores na url /ships.
 WORKDIR: star_wars_api/star_wars_api/
 
 COMMAND: coverage run --source . -m unittest discover -s tests -v
+
+# Subindo o ambiente docker
+
+- docker build -t <image_name> .
+- docker run -d -p 5000:5000 <image_name>
