@@ -17,3 +17,10 @@ COMMAND: coverage run --source . -m unittest discover -s tests -v
 
 - docker build -t <image_name> .
 - docker run -d -p 5000:5000 <image_name>
+
+Amazon URL:
+
+characters: http://star-wars-api-dev.eu-west-2.elasticbeanstalk.com/character/
+ships: http://star-wars-api-dev.eu-west-2.elasticbeanstalk.com/ships/
+
+Também foi criado um simples index.html na url: http://star-wars-api-dev.eu-west-2.elasticbeanstalk.com/
